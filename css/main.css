@@ -1,0 +1,852 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v29-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v29-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v29-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v29-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hind-madurai-v6-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/hind-madurai-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/hind-madurai-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/hind-madurai-v6-latin-regular.svg#HindMadurai') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/hind-madurai-v6-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/hind-madurai-v6-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/hind-madurai-v6-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/hind-madurai-v6-latin-500.svg#HindMadurai') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/hind-madurai-v6-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/hind-madurai-v6-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/hind-madurai-v6-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/hind-madurai-v6-latin-600.svg#HindMadurai') format('svg'); /* Legacy iOS */
+}
+  @font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hind-madurai-v6-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/hind-madurai-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/hind-madurai-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/hind-madurai-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/hind-madurai-v6-latin-700.svg#HindMadurai') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fredoka-one-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/fredoka-one-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/fredoka-one-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/fredoka-one-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/fredoka-one-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/fredoka-one-v8-latin-regular.svg#FredokaOne') format('svg'); /* Legacy iOS */
+}
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto','Hind Madurai';
+}
+img{
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1165px;
+}
+/* ==========HEADER QISMI======= */
+.site-header{
+    height: 862px;
+    background: #F2CEDA;
+}
+.container-header{
+    height: 1600px;
+    width: 1519px;
+    background-image: url(../img/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 892px 742px;
+    background-position: top 128px left 720px;
+}
+.polar-logotip:hover{
+    opacity: 0.8;
+}
+.polar-logotip:active{
+    opacity: 0.6;
+}
+.container-header-navbar{
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header-navbar{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 172px;
+}
+.header-nav-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+}
+.header-nav-item{
+    margin-left: 30px; 
+}
+.header-nav-link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    color:#150101;
+}
+.header-nav-link:hover,
+.header-nav-link#current{
+    color: #D23166;
+}
+.header-button{
+    margin-left: 132px;
+    width: 165px;
+    padding: 14px 50px 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.header-button:hover{
+    opacity: 0.8;
+}
+.header-button:active{
+    opacity: 0.6;
+}
+/* =========HERO QIMI=========== */
+.hero-left{
+    /* margin-top: 285px; */
+    padding-top: 194px;
+    width: 665px;
+    height: 354px;
+}
+.hero-text{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 6px;
+    width: 172px;
+    height: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0101;
+}
+.hero-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+    width: 665px;
+    height: 130px;
+    font-family: Fredoka One;
+    font-size: 57px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+.ice-cream-color{
+    color: #D23166;
+}
+.hero-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    width: 523px;
+    height: 78px;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+.hero-button{
+    display: block;
+    width: 165px;
+    padding: 14px 50px 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.hero-button:hover{
+    opacity: 0.8;
+}
+.hero-button:active{
+    opacity: 0.6;
+}
+/* =======MAIN QISMI========= */
+.main-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: -19.5px;
+}
+.main-item{
+    margin: 19.5px;
+    padding: 33px 26px 27px 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 250px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+.main-item:hover{
+    -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+.main-car-img{
+    margin-bottom: 24.65px;
+}
+.main-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.main-desc{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+/* ==========BROWN SUGAR========= */
+.brown-sugar{
+    background-color: #F2CEDA;
+}
+.container-brown-sugar{
+    background-image: url(../img/section2-image.png);
+    background-repeat: no-repeat;
+    background-position: top 0 left 540px;
+    height: 544px;
+}
+.brown-container{
+    height: 544px;
+}
+.brown-sugar-left{
+    padding-top: 141.39px;
+}
+.brown-sugar-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    width: 349px;
+    height: 98.27px;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+}
+.brown-sugar-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 38px;
+    width: 442px;
+    height: 62px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+}
+.brown-sugar-button{
+    padding: 15px 42px 15px 41px;
+    width: 165px;
+    height: 49.13px;
+    border: none;
+    color: #fafafa;
+    left: 253px;
+    background: #D64374;
+    border-radius: 5px;
+}
+.brown-sugar-button:hover{
+    opacity: 0.8;
+}
+.brown-sugar-button:active{
+    opacity: 0.6;
+}
+/* ==============OUR PRODUCT QISMI========= */
+.our-product{
+    padding-top: 137px;
+    padding-left: 40px;
+    margin: 0 auto;
+    margin-bottom: 149px;
+    width: 1506px;
+    height: 2000px;
+}
+.our-product-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 64px;
+    text-align: center;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+}
+.our-product-navbar{
+    margin-left: 100px;
+}
+.our-product-list{
+    margin: -19.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+}
+.our-product-item{
+    margin: 19.5px;
+}
+.our-product-link{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(131, 131, 131);
+}
+.our-product-link:active,
+.our-product-link#parrent{
+    color: #000;
+}
+.our-product-link:hover,
+.our-product-link#parrent{
+    border-bottom: 3px solid #D64374;
+}
+/* ==============BROWN BREAD QISMI========== */
+.brown-bread-list{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.brown-bread-item{
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 1119px;
+}
+.brown-bread-item:nth-child(even){
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+.box{
+    margin-left: 85px;
+    width: 454px;
+    height: 234px;
+}
+.box-1{
+    text-align: right;
+}
+.ice-cream-img{
+    margin-left: 85px;
+}
+.ice-cream-img-2{
+    margin-left: 200px;
+}
+.brown-bread-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 11px;
+    font-family: Hind Madurai;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+}
+.brown-bread-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 28px;
+    width: 454px;
+    height: 67px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.brown-bread-span{
+    margin: 0;
+    padding: 0;
+    width: 71px;
+    height: 27px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+.brown-bread-strike{
+    margin: 0;
+    padding: 0;
+    width: 58px;
+    height: 27px;
+    font-family: Hind Madurai;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+.brown-button{
+    margin-top: 16px;
+    margin-left: auto;
+}
+.brown-button-1{
+    margin-top: 16px;
+}
+.group{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 46px;
+}
+.group-1{
+    margin-left: 21px;
+}
+.ellipse-heading{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.ellepse-desc{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.blockquote-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    width: 322px;
+    height: 53px;
+    font-family: Roboto;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.img-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: -20px;
+}
+.img-block{
+    margin: 20px;
+}
+/* ===============SIMPLE WAY QISMI=========== */
+.simple-way{
+    background: #F8EDF0;
+    margin-top: 149px;
+    height: 627px;
+}
+.simple-way-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.simple-way-list{
+    position: relative;
+    top: -70px;
+    left: 94px;
+    padding-top: 90px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.simple-way-item{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.simple-way-link{
+    text-decoration: none;
+}
+.simple-way-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 44.2px;
+    color: #000;
+}
+.simple-way-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 31px;
+    width: 607px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #0F0101;
+    opacity: 0.7;
+    color: #000;
+}
+.simple-way-heading-2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 19px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: #000;
+}
+.img-relative{
+    position: relative;
+    top: 56px;
+}
+.item-para{
+    position: relative;
+    right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.google-apple:hover{
+    opacity: 0.8;
+}
+.google-apple:active{
+    opacity: 0.6;
+}
+/* ================FORM QISMI============ */
+.form-section{
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 71px;
+}
+.form-container{
+    padding-left: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.form-heading{
+    margin: 0;
+    padding: 0;
+    padding-left: 110px;
+    margin-bottom: 36px;
+    width: 550px;
+    height: 123px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+.phone-number{
+    width: 303px;
+    padding: 29px 25px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #FFA3A3;
+    color: #0F0000;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.question-type{
+    margin-left: 30px;
+    margin-bottom: 37px;
+    width: 303px;
+    padding: 29px 25px;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #FFA3A3;
+    color: #0F0000;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.enter-your-question{
+    padding: 29px 25px;
+    width: 508px;
+    height: 74px;
+    background: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.submit{
+    position: relative;
+    left: 0;
+    border: none;
+    padding: 24px 46px 28px 46px;
+    width: 136px;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+/* ==============FOOTER QISMI========= */
+.footer{
+    padding-top: 70px;
+    padding-bottom: 104px;
+    background-color: #0A0808;
+}
+.footer-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-logo{
+    margin-bottom: 9px;
+}
+.footer-logo:hover{
+    opacity: 0.8;
+}
+.footer-logo:active{
+    opacity: 0.6;
+}
+.footer-desc{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    width: 207px;
+    height: 47px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footer-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    width: 46px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.footer-box{
+    margin: -5;
+}
+.footer-img-logo{
+    margin: 5;
+}
+.footer-img-logo:hover{
+    opacity: 0.8;
+}
+.footer-img-logo:active{
+    opacity: 0.6;
+}
+.footer-list-1{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer-heading-2{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.your-email{
+    margin-top: 13px;
+    margin-bottom: 15px;
+    padding: 20px 164px 19px 32px;
+    background-color: #0F0000;
+    border: 1px solid #D23166;
+    border-radius: 5px 0 0 5px;
+}
+.subscribe{
+    padding: 16px 18px 18px 17px;
+    background-color: #D23166;
+    border: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 0 5px 5px 0;
+    color: #FFFFFF;
+}
+.box-img-2{
+    margin: -8;
+}
+.footer-logo-img{
+    margin: 8;
+}
